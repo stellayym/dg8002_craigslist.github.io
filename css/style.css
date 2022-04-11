@@ -1,0 +1,330 @@
+
+.header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-container{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+#header-logo {
+  width: 55%;
+  max-width: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#nav-title{
+  margin-left: .6rem;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+h1, h2, h3, h4 {
+  font-family: "Roboto", Georgia, "Times New Roman", serif;
+  color: #2A147C;
+  line-height: 1.3;
+}
+h5, h6 {
+  font-family: "Roboto", Georgia, "Times New Roman", serif;
+  color: #5d5d5d;
+  line-height: 1.3;
+}
+
+h6{
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5
+}
+
+/* Homepage Page */
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 3rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: 1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav a{
+ text-decoration: none;
+ line-height: 0.9;
+}
+
+.nav-scroller .nav a:hover{
+  border-bottom: 3px solid #2A147C;
+ }
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+}
+
+.hero-banner{
+  background-image: url("../images/BG1.png");
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+}
+
+.hero-banner .input-group button{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.album{
+  background-color: white;
+}
+.footer {
+  background-color: #e7e5ee;
+  text-align: center;
+}
+
+#footer-logo{
+  width: 40%;
+  max-width: 150px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* Listings Page */
+.search-result{
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.search-result button{
+  padding: .1rem 2rem;
+  margin-right: 1rem;
+}
+
+.search-result .form-check{
+  margin-right: 1rem;
+}
+
+.search-result .mr-sm-2{
+  border-radius: .3rem;
+  padding: .1rem .8rem;
+  margin-bottom: 0.125rem;
+  margin-right: 1rem;
+}
+
+.listings-location{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 1rem 1.5rem 1rem;
+  background-color: #e7e5ee;
+
+}
+
+.listings-location button{
+ border-radius: .3rem;
+ color: #5d5d5d;
+ border-color: #ccc;
+ background-color: #fff;
+ padding-top: .2rem;
+ padding-bottom: .2rem;
+}
+
+.listings{
+  margin-top: 1.5rem;
+}
+
+.listings h4{
+  border-bottom: 3px solid #2A147C;
+  max-width: 150px;
+}
+
+.listings-item{
+  margin-top: 1rem;
+  max-width: 95%;
+}
+
+.listings-item .img{
+  margin-right: 2rem;
+}
+
+.listings-item .time{
+  margin-top: 16px;
+  text-align: right;
+  margin-right: 18px;
+}
+.listings-item .btn-primary{
+  margin-top: 16px;
+  float: right;
+  margin-right: 0;
+  padding:5px 10px;
+}
+.text-btn {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card-title{
+  color: #2A147C;
+  font-size: 24px;
+}
+
+.col h4 {
+  text-align: center;
+}
+
+/* Details Preview Page */
+
+.overview-group{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.left-colummn {
+  align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 1303px;
+    width: 947px;
+}
+
+#rent-title {
+    color: var(--craigslist-purple);
+    font-family: var(--font-family-raleway);
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 64.0px;
+    min-height: 64px;
+    white-space: nowrap;
+}
+
+.images-box {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.image-container {
+    height: 394px;
+    left: 0;
+    top: 0;
+    width: 930px;
+}
+
+.details-img-1 {
+    background-color: transparent;
+    background-image: url(../images/image-4@1x.svg);
+    background-size: 100% 100%;
+    height: 394px;
+    width: 648px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.details-img-2 {
+    background-color: transparent;
+    background-image: url(../images/Group-5984.svg);
+    background-size: 100% 100%;
+    height: 394px;
+    width: 254px;
+    display: flex;
+    object-fit: cover;
+}
+
+/* Overview */
+
+.rental-details{
+  padding-right: 30px;
+}
+.rental-details h5 {
+    font-family: "Roboto", Georgia, "Times New Roman", serif;
+    color: #2a147c;
+    line-height: 1.3;
+}
+
+.rental-details .lightbox{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.detail-box {
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px #0000001a;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.contact{
+  padding-left: 30px;
+}
+
+.contact h5 {
+  font-family: "Roboto", Georgia, "Times New Roman", serif;
+  color: #2a147c;
+  line-height: 1.3;
+}
+
+.contact .map{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.user-info{
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px #0000001a;
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Media query */
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+@media (min-width:640px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  #header-logo {
+    width: 100%;
+  }
+  #user{
+    display: none;
+  }
+
+  #current_location{
+    display: none;
+  }
+}

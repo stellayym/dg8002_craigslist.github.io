@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,300,500,600|Raleway:400,700,900,600,800" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <title>Craigslist</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+  <!-- Header -->
+  <div class="container">
+      <header class="header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <div class="dropdown">
+              <button class="btn btn-sm" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </button>
+              <span id="current_location"> <a class="p-2 text-muted" href=""> <i class="fa fa-map-marker"></i><span id="nav-title">Toronto</span></a></span>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu1" style="line-height: 1.6;">
+                <button class="dropdown-item" type="button">Housing</button>
+                <button class="dropdown-item" type="button">Jobs</button>
+                <button class="dropdown-item" type="button">Services</button>
+                <button class="dropdown-item" type="button">Buy & Sell</button>
+                <button class="dropdown-item" type="button">Forum</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 text-center">
+            <a class="header-logo text-dark" href="Homepage.html"><img src="./images/craigslist-logo_1.svg" id="header-logo"></a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <span id="user"><a class="p-2 text-muted" href=""> <i class="fa fa-user-circle-o"></i><span id="nav-title">My Account</span></a></span>
+
+            <a class="text-muted" href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+            </a>
+            
+            <a class="btn btn-sm btn-secondary" href="">Post Ad</a>
+          </div>
+        </div>
+      </header>
+ <!-- Header -->
+   <!-- Nav -->
+      <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-between">
+
+          <a class="p-2 text-muted" href="Listings.html"> <i class="fa fa-home fa-nav"></i><span id="nav-title">Housing</span></a>
+          <a class="p-2 text-muted" href=""> <i class="fa fa-briefcase"></i><span id="nav-title">Jobs</span></a>
+          <a class="p-2 text-muted" href=""> <i class="fa fa-cog"></i><span id="nav-title">Services</span></a>
+          <a class="p-2 text-muted" href=""> <i class="fa fa-credit-card"></i><span id="nav-title">Buy & Sell</span></a>
+          <a class="p-2 text-muted" href=""> <i class="fa fa-comments-o"></i><span id="nav-title">Forum</span></a>
+        </nav>
+      </div>
+    </div>
+    <!-- Nav -->
+    <!-- Banner -->
+      <main>
+
+        <section class="py-5 text-center hero-banner">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1>Finding you everything you need in </h1>
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <h1 style="text-decoration: underline;"><b>Toronto</b></h1>
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <input class="form-control" id="myInput" type="text" placeholder="Search..">
+                    <br>
+                    <ul class="list-group" id="myList">
+                      <a class="" href=""> <li class="list-group-item">Toronto</li></a>
+                      <a class="" href=""><li class="list-group-item">Quebec City</li></a>
+                      <a class="" href=""><li class="list-group-item">Ottawa</li></a>
+                      <a class="" href=""><li class="list-group-item">Montreal</li></a>
+                      <a class="" href="">  <li class="list-group-item">Calgary</li></a>
+                      <a class="" href="">  <li class="list-group-item">Vancouver</li></a>
+                      <a class="" href="">  <li class="list-group-item">Edmonton</li></a>
+                      <a class="" href="">  <li class="list-group-item">Winnipeg</li></a>
+                    </ul>  
+                  </div>
+                <p>
+                  <form class="input-group mb-3">
+                          <input type="text" class="form-control" name="search" placeholder="Search Craigslist" aria-describedby="basic-addon2" required/>
+                          <div class="input-group-append">
+                            <button class="btn btn-secondary" type="submit">Search</button>
+                            
+                          </div>
+                        </div>
+                        
+                  </form>
+              </p>
+            </div>
+          </div>
+        </section>
+        </main>
+     <!-- Banner -->
+      <!-- Content -->  
+        <div class="album py-5 bg-light">
+          <div class="container">
+      
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                 <a href="Details.html" target="-blank"> <img class="card-img-top" src="images/Ad1.jpg" alt="Card image cap"></a>
+                 <div class="card-img-overlay">
+                  <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                </div>
+                  <div class="card-body">
+                    <p class="card-text"> Two bedrooms, one bathroom condo in downtown</p>
+                    <p class="card-text"> <b>CA$2,680</b></p>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a type="button" class="btn btn-sm btn-secondary" href="Details.html" target="-blank">View</a> 
+
+
+
+
+                      </div>
+                      <small class="text-muted">Posted 9 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <a href="Details.html" target="-blank"> <img class="card-img-top" src="images/Ad5.jpg" alt="Card image cap"></a>
+                  <div class="card-img-overlay">
+                    <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Nintendo switch pro 2021, OLED model, like new</p>
+                    <p class="card-text">CA$310</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a type="button" class="btn btn-sm btn-secondary" href="Details.html" target="-blank">View</a> 
+                      </div>
+                      <small class="text-muted">Posted 1 hrs ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <a href="Details.html" target="-blank"><img class="card-img-top" src="images/Ad2.jpg" alt="Card image cap"></a>
+                  <div class="card-img-overlay">
+                    <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                  </div>
+      
+                  <div class="card-body">
+                    <p class="card-text">Three bedrooms, two bathrooms house in Markham</p>
+                    <p class="card-text">CA$2,360</p>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a type="button" class="btn btn-sm btn-secondary" href="Details.html" target="-blank">View</a> 
+                      </div>
+                      <small class="text-muted">Posted 1 hrs ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <a href="Details.html" target="-blank"> <img class="card-img-top" src="images/Ad6.jpg" alt="Card image cap"></a>
+                  <div class="card-img-overlay">
+                    <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                  </div>
+      
+                  <div class="card-body">
+                    <p class="card-text">Modern book rack, natural wood</p>
+                    <p class="card-text">CA$110</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a type="button" class="btn btn-sm btn-secondary" href="Details.html" target="-blank">View</a> 
+                      </div>
+                      <small class="text-muted">Posted 3 hrs ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <a href="Details.html" target="-blank">  <img class="card-img-top" src="images/Ad3.jpg" alt="Card image cap"></a>
+                  <div class="card-img-overlay">
+                    <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                  </div>
+      
+                  <div class="card-body">
+                    <p class="card-text">Furnished Studio in downtown</p>
+                    <p class="card-text">CA$1,400</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a type="button" class="btn btn-sm btn-secondary" href="Details.html" target="-blank">View</a> 
+                      </div>
+                      <small class="text-muted">Posted 9 hrs ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <a href="Details.html" target="-blank">  <img class="card-img-top" src="images/Ad4.jpg" alt="Card image cap"></a>
+                  <div class="card-img-overlay">
+                    <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                  </div>
+      
+                  <div class="card-body">
+                    <p class="card-text">IKEA sofa, clean, like new</p>
+                    <p class="card-text">CA$650</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a type="button" class="btn btn-sm btn-secondary" href="Details.html" target="-blank">View</a> 
+                      </div>
+                      <small class="text-muted">Posted 9 hrs ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <a href="Details.html" target="-blank">  <img class="card-img-top" src="images/Ad7.jpg" alt="Card image cap"> </a>
+                  <div class="card-img-overlay">
+                    <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                  </div>
+      
+                  <div class="card-body">
+                    <p class="card-text">one bedroom, in furnished house, in Danford</p>
+                    <p class="card-text">CA$1,100</p>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a type="button" class="btn btn-sm btn-secondary" href="Details.html" target="-blank">View</a> 
+                      </div>
+                      <small class="text-muted">Posted 15 hrs ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="card-img-top" src="images/Ad8.jpg" alt="Card image cap">
+                  <div class="card-img-overlay">
+                    <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                  </div>
+      
+                  <div class="card-body">
+                    <p class="card-text">Full furnished one bedroom condo, near the lake  </p>
+                    <p class="card-text">CA$2,100</p>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a type="button" class="btn btn-sm btn-secondary" href="Details.html" target="-blank">View</a> 
+                      </div>
+                      <small class="text-muted">Posted yesterday</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="card-img-top" src="images/Ad9.jpg" alt="Card image cap">
+                  <div class="card-img-overlay">
+                    <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                  </div>
+      
+                  <div class="card-body">
+                    <p class="card-text">Tax and Accounting Services</p>
+                    <p class="card-text">CA$2,990</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a type="button" class="btn btn-sm btn-secondary" href="Details.html" target="-blank">View</a> 
+                      </div>
+                      <small class="text-muted">Posted yesterday</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Content -->  
+            </div>
+          </div>
+
+    
+          
+        
+        <div class="row" style="text-align: center;">
+        <nav aria-label="Page navigation">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      </main>
+
+
+      
+      <!-- Footer -->  
+      <footer class="py-3 my-4 footer">
+        <img id="footer-logo" src="./images/craigslist-logo_1.svg">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Help</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Safety</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact Us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2022 craigslist</p>
+      </footer>
+</div>
+</body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/holder.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $("#myInput").on("keyup", function() {
+          var value = $(this).val().toLowerCase();
+          $("#myList li").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+          });
+        });
+      });
+      </script>
