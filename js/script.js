@@ -8,6 +8,8 @@ document.querySelector('.form-control').addEventListener('button', (e) => {
 
 })
 
+/* for sending message  */
+
 function success() {
   if(document.getElementById("textsend").value==="") { 
            document.getElementById('button').disabled = true; 
@@ -15,3 +17,7 @@ function success() {
            document.getElementById('button').disabled = false;
        }
    }
+
+function sent() {
+  alert("Your message has been sent successfully!");
+}
